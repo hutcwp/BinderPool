@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         btnSub = findViewById(R.id.btn_sub);
 
         binderPool = BinderPool.getsInstance(this);
-
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
